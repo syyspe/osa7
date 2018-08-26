@@ -1,0 +1,60 @@
+body {
+  margin: 5;
+  padding: 2;
+  font-family: sans-serif;
+}
+
+.error {
+  color: red;
+  background-color: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.info {
+  color: green;
+  background-color: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#blogWrapper {
+  border: none;
+  overflow-y: scroll;
+  overflow-x: auto;
+  height: 200px;
+  width: auto;
+}
+
+.boldHeaderRow {
+  font-weight: bold;
+}
+
+.buttonRow {
+  text-align: right
+}
+
+.likeButton {
+  background-color: greenyellow;
+  border: none;
+}
+
+.nonWrapping {
+  white-space: nowrap;
+  padding-left: 8px;
+}
+
+.indented {
+  padding-left: 14px;
+  margin-left: 8px;
+}
+
+.clickableText {
+  cursor: pointer;
+}
